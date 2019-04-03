@@ -1,0 +1,388 @@
+<!DOCTYPE html>
+<html lang="EN">
+
+<head>
+    <meta charset="utf-8">
+    <title>NYSL Registration</title>
+    <link rel="stylesheet" type="text/css" href="assets/stylesheets/nysl_3.css">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,300i,700" rel="stylesheet">
+</head>
+
+<body>
+
+    <header>
+        <div class="container head-registration">
+            <div class="head-registration">
+                <img class="logo" src="assets/logo.png" alt="logo">
+                <h1>Northside Youth Soccer League</h1>
+            </div>
+            <nav class="navigation">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="NYSL.html">About NYSL</a></li>
+                    <li><a href="rules.html">Rules &amp; Policies</a></li>
+                    <li><a href="schedule.html">Schedule</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="registration.html">Registration</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <div class="grid">
+        <div class="rules container">
+            <h2 class="subheading">Registration</h2>
+            <p>Please fill out the form below to register your kid for NYSL:</p>
+        </div>
+
+
+        <div class="container">
+            <form action="show_data.html" method="get">
+                <fieldset class="player-info">
+                    <table class="tableform">
+                        <colgroup>
+                            <col style="width:22%">
+                            <col style="width:28%">
+                            <col style="width:20%">
+                            <col style="width:30%">
+                        </colgroup>
+
+                        <thead>
+                            <tr>
+                                <th scope="col" colspan="4">(Please fill in every mandatory field with *)</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>
+                                    <label for="firstname">
+                                        Player&#39;s First Name*:</label>
+                                </td>
+                                <td>
+                                    <input id="firstname" type="text" name="First-Name" required>
+                                </td>
+                                <td>
+                                    <label for="lastname">
+                                        Last Name*:</label>
+                                </td>
+                                <td>
+                                    <input id="lastname" type="text" name="Last-Name" required>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <label for="address">
+                                        Street Address:</label>
+                                </td>
+                                <td colspan="3">
+                                    <input id="address" type="text" name="Address">
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <label for="city">
+                                        City:</label>
+                                </td>
+                                <td>
+                                    <input id="city" type="text" name="City">
+                                </td>
+                                <td>
+                                    <label for="postcode">
+                                        Zip Code:</label>
+                                </td>
+                                <td>
+                                    <input id="postcode" type="text" name="Postcode">
+                                </td>
+                            </tr>
+                            <tr>
+                                <td><label>Birth Date*:</label></td>
+                                <td>
+                                    <div class="flex-date"><span>
+                                            <label for="month"></label>
+                                            <select id="month" name="Birth-Month" required>
+                                                <option selected value="">--</option>
+                                                <option>January</option>
+                                                <option>February</option>
+                                                <option>March</option>
+                                                <option>April</option>
+                                                <option>May</option>
+                                                <option>June</option>
+                                                <option>July</option>
+                                                <option>August</option>
+                                                <option>September</option>
+                                                <option>October</option>
+                                                <option>November</option>
+                                                <option>December</option>
+                                            </select>
+                                        </span>
+                                        <span>
+                                            <label for="day"></label>
+                                            <select id="day" name="Birth-Day" required>
+                                                <option selected value="">--</option>
+                                                <option>01</option>
+                                                <option>02</option>
+                                                <option>03</option>
+                                                <option>04</option>
+                                                <option>05</option>
+                                                <option>06</option>
+                                                <option>07</option>
+                                                <option>08</option>
+                                                <option>09</option>
+                                                <option>10</option>
+                                                <option>11</option>
+                                                <option>12</option>
+                                                <option>13</option>
+                                                <option>14</option>
+                                                <option>15</option>
+                                                <option>16</option>
+                                                <option>17</option>
+                                                <option>18</option>
+                                                <option>19</option>
+                                                <option>20</option>
+                                                <option>21</option>
+                                                <option>22</option>
+                                                <option>23</option>
+                                                <option>24</option>
+                                                <option>25</option>
+                                                <option>26</option>
+                                                <option>27</option>
+                                                <option>28</option>
+                                                <option>29</option>
+                                                <option>30</option>
+                                                <option>31</option>
+                                            </select>
+                                        </span>
+                                        <span>
+                                            <label for="year"></label>
+                                            <select id="year" name="Birth-Year" required>
+                                                <option selected value="">--</option>
+                                                <option>1995</option>
+                                                <option>1996</option>
+                                                <option>1997</option>
+                                                <option>1998</option>
+                                                <option>1999</option>
+                                                <option>2000</option>
+                                                <option>2001</option>
+                                                <option>2002</option>
+                                                <option>2003</option>
+                                                <option>2004</option>
+                                                <option>2005</option>
+                                                <option>2006</option>
+                                                <option>2007</option>
+                                                <option>2008</option>
+                                                <option>2009</option>
+                                                <option>2010</option>
+                                                <option>2011</option>
+                                                <option>2012</option>
+                                                <option>2013</option>
+                                                <option>2014</option>
+                                                <option>2015</option>
+                                                <option>2016</option>
+                                                <option>2017</option>
+                                                <option>2018</option>
+                                                <option>2019</option>
+                                            </select>
+                                        </span>
+                                    </div>
+                                </td>
+                                <td>
+                                    <label>Gender*:</label>
+                                </td>
+                                <td>
+                                    <label for="male"></label><input id="male" type="radio" name="Gender" value="Male" checked><span class="option">Male</span>
+                                    <label for="female"></label><input id="female" type="radio" name="Gender" value="Female"><span class="option">Female</span>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td><label>
+                                        Grade*:</label></td>
+                                <td colspan="3">
+                                    <label for="pre-school"></label><input id="pre-school" type="radio" name="Grade" value="pre-school" checked><span class="option">Pre-School</span>
+                                    <label for="1st"></label><input id="1st" type="radio" name="Grade" value="1st"><span class="option">1st</span>
+                                    <label for="2nd"></label><input id="2nd" type="radio" name="Grade" value="2nd"><span class="option">2nd</span>
+                                    <label for="3rd"></label><input id="3rd" type="radio" name="Grade" value="3rd"><span class="option">3rd</span>
+                                    <label for="4th"></label><input id="4th" type="radio" name="Grade" value="4th"><span class="option">4th</span>
+                                    <label for="5th"></label><input id="5th" type="radio" name="Grade" value="5th"><span class="option">5th</span>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <label for="parent-guardian">
+                                        Parent/Guardian*:</label>
+                                </td>
+                                <td colspan="3">
+                                    <input id="parent-guardian" type="text" name="Parent-Guardian" required>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <label for="phone">
+                                        Contact Phone*:</label>
+                                </td>
+                                <td>
+                                    <input id="phone" type="text" name="Phone" pattern="[\d]+" required>
+                                </td>
+                                <td>
+                                    <label for="Email">
+                                        Email*:</label>
+                                </td>
+                                <td>
+                                    <input id="Email" type="email" name="Email" placeholder="example@abc.com" required>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td colspan="4">
+                                    <label>Which elementary schools do you live near?</label>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <label for="1st-closest-school"><span class="non-fat-title">Fisrt Closest School*:</span></label>
+                                </td>
+                                <td>
+                                    <select id="1st-closest-school" name="First-Closest-School" required>
+                                        <option selected value="">-Please Select-</option>
+                                        <option>AJ Katzenmaier</option>
+                                        <option>Greenbay</option>
+                                        <option>Howard A Yeager</option>
+                                        <option>Marjorie P Hart</option>
+                                        <option>North Elementary</option>
+                                        <option>South Elementary</option>
+                                    </select>
+                                </td>
+                                <td>
+                                    <label for="2nd-closest-school"><span class="non-fat-title">Second Closest School*:</span></label>
+                                </td>
+                                <td>
+                                    <select id="2nd-closest-school" name="Second-Closest-School" required>
+                                        <option selected value="">-Please Select-</option>
+                                        <option>AJ Katzenmaier</option>
+                                        <option>Greenbay</option>
+                                        <option>Howard A Yeager</option>
+                                        <option>Marjorie P Hart</option>
+                                        <option>North Elementary</option>
+                                        <option>South Elementary</option>
+                                    </select>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td colspan="4">
+                                    <label>What position(s) do you normally play? <span class="non-fat-title">(check all that apply)</span></label>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td colspan="4">
+                                    <label for="forward"></label><input id="forward" type="checkbox" name="Normal-Position" value="Forward"><span class="option">Forward</span>
+                                    <label for="midfield"></label><input id="midfield" type="checkbox" name="Normal-Position" value="Midfield"><span class="option">Midfield</span>
+                                    <label for="defense"></label><input id="defense" type="checkbox" name="Normal-Position" value="Defense"><span class="option">Defense</span>
+                                    <label for="goalkeeper"></label><input id="goalkeeper" type="checkbox" name="Normal-Position" value="Goalkeeper"><span class="option">Goalkeeper</span>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td colspan="4">
+                                    <label>What position(s) do you want to play? <span class="non-fat-title">(check all that apply)</span></label>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td colspan="4">
+                                    <label for="forward-want"></label><input id="forward-want" type="checkbox" name="Desired-Position" value="Forward"><span class="option">Forward</span>
+                                    <label for="midfield-want"></label><input id="midfield-want" type="checkbox" name="Desired-Position" value="Midfield"><span class="option">Midfield</span>
+                                    <label for="defense-want"></label><input id="defense-want" type="checkbox" name="Desired-Position" value="Defense"><span class="option">Defense</span>
+                                    <label for="goalkeeper-want"></label><input id="goalkeeper-want" type="checkbox" name="Desired-Position" value="Goalkeeper"><span class="option">Goalkeeper</span>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td colspan="3">
+                                    <label>
+                                        Do you already have a uniform? <span class="non-fat-title">(uniform is mandatory for new registers)</span>
+                                    </label>
+                                </td>
+                                <td>
+                                    <label for="uniform-yes"></label><input id="uniform-yes" type="radio" name="Uniform" value="Yes" checked><span class="option">Yes</span>
+                                    <label for="uniform-no"></label><input id="uniform-no" type="radio" name="Uniform" value="No"><span class="option">No</span>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <label for="jersey">Jersey Size:</label>
+                                </td>
+                                <td>
+                                    <select id="jersey" name="Jersey-Size">
+                                        <option selected>-Please Select-</option>
+                                        <option>Youth Small</option>
+                                        <option>Youth Medium</option>
+                                        <option>Youth Large</option>
+                                        <option>Small</option>
+                                        <option>Medium</option>
+                                        <option>Large</option>
+                                        <option>Medium</option>
+                                        <option>Extra Large</option>
+                                    </select>
+                                </td>
+                                <td>
+                                    <label for="shorts">Shorts Size:</label>
+                                </td>
+                                <td>
+                                    <select id="shorts" name="Shorts-Size">
+                                        <option selected>-Please Select-</option>
+                                        <option>Youth Small</option>
+                                        <option>Youth Medium</option>
+                                        <option>Youth Large</option>
+                                        <option>Small</option>
+                                        <option>Medium</option>
+                                        <option>Large</option>
+                                        <option>Medium</option>
+                                        <option>Extra Large</option>
+                                    </select>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </fieldset>
+
+                <fieldset class="registration-action">
+
+                    <div>
+                        <p class="permission-title">Permission to Play:
+                        </p>
+                        <p class="permission-paragraph">I, the parent or guardian of the minor registrant, agree that the registrant and I will abide by all the rules of the Northside Youth Soccer League (NYSL). In recognizing the possibility of physical injury associated with soccer and in consideration for the “League” accepting the registrant for its soccer programs and activities, I hereby release, discharge, and/or otherwise indemnify NYSL, their employees and associated personnel and volunteers, including the facilities used for practices and games, against any claim by or on behalf of the registrant as a result of the registrant’s participation in the program and/or being transported to or from NYSL sponsored activities, which transportation. </p>
+                        <p class="permission-paragraph">By entering your name below, I hereby agree and authorize the above. In addition, by entering your name below, I also acknowledge that I have read the cancellation policy and agree to its terms.</p>
+                    </div>
+
+
+                    <div class="signature">
+                        <div class="permission-sign">
+                            <input id="signature" type="text" name="Signature" required>
+                            <p class="option">Parent/Guardian&#39;s Signature</p>
+                        </div>
+                        <div class="permission-date">
+                            <input id="signing-date" type="date" name="Date-signed" required>
+                            <p class="option">Date of Signature</p>
+                        </div>
+                    </div>
+
+                    <input class="btn" type="submit" value="REGISTER NOW">
+                    <input type="checkbox" name="Permission-read" value="Read" required><span id="last-check"> I have read and I agree with the permission to play.</span>
+
+                </fieldset>
+            </form>
+        </div>
+    </div>
+
+    <footer class="container">
+        <small>&copy; Northside Youth Soccer League</small>
+        <nav class="navigation-footer">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="NYSL.html">About NYSL</a></li>
+                <li><a href="rules.html">Rules &amp; Policies</a></li>
+                <li><a href="schedule.html">Schedule</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="registration.html">Registration</a></li>
+            </ul>
+        </nav>
+    </footer>
+
+</body>
+
+</html>

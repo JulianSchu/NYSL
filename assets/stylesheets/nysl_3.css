@@ -1,0 +1,880 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+2. v2.0 | 20110126
+  License: none (public domain)
+*/
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+    display: block;
+}
+
+body {
+    line-height: 1;
+}
+
+ol,
+ul {
+    list-style: none;
+}
+
+blockquote,
+q {
+    quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+    content: '';
+    content: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+
+/*
+  ========================================
+  Grid
+  ========================================
+*/
+
+*,
+*:before,
+*:after {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    -o-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.container {
+    margin: 0px auto;
+    padding: 0px 0px;
+    width: 1000px;
+}
+
+.grid {
+    margin: 0px 0px 0px 0px;
+    padding: 20px 0px;
+    border: none;
+    min-width: 1000px;
+    background-color: white;
+
+}
+
+.flex-paragragh {
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.flex-info {
+    width: 50%;
+}
+
+.contact-image {
+    background: url(../design2_image1.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: 100%;
+    height: 300px;
+    background-size: 100%;
+}
+
+.namecard {
+    padding: 20px;
+    border: solid #395870 1px;
+    border-radius: 5px;
+}
+
+.fa-address-card {
+    margin-left: 140px;
+    color: #395870;
+}
+
+.namecard li {
+    padding: 0px
+}
+
+.namecard h3 {
+    padding-top: 0px;
+}
+
+.namecard table {
+    margin-bottom: auto;
+}
+
+.namecard thead {
+    background: none
+}
+
+.namecard td {
+    line-height: 25px;
+}
+
+.namecard td:first-child {
+    width: 90px;
+    padding-left: 10px;
+}
+
+.events {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 20px
+}
+
+#event1 {
+    grid-column: 1;
+}
+
+#event1-image {
+    background: url(../design3_image2.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    height: 170px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+}
+
+#event2 {
+    grid-column: 2;
+}
+
+#event2-image {
+    background: url(../design3_image1.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    height: 170px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+}
+
+#event3 {
+    grid-column: 3;
+}
+
+#event3-image {
+    background: url(../design3_image3.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    height: 170px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+}
+
+
+/*
+  ========================================
+  Typography
+  ========================================
+*/
+
+html {
+    background: url(../football-grass-modified.jpg);
+    background-repeat: repeat;
+    background-size: 100%;
+    font-family: "Open Sans Condensed", "Montserrat", sans-serif
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+    font-weight: 700;
+}
+
+
+h1 {
+    width: 20%;
+    font-size: 45px;
+    line-height: 40px;
+    color: gainsboro;
+    margin: 20px 0px 35px 40px;
+}
+
+h2,
+h3 {
+    font-size: 30px;
+}
+
+h3 {
+    padding-top: 20px;
+    margin-left: 10px;
+    padding-bottom: 20px
+}
+
+p,
+li {
+    font-size: 22px;
+    line-height: 30px;
+    text-align: justify
+}
+
+h2,
+p,
+li {
+    margin-left: 10px;
+    padding-bottom: 20px
+}
+
+.subheading {
+    font-size: 35px;
+    padding-top: 20px;
+    color: black;
+    text-transform: uppercase
+}
+
+
+/* 
+====================================================
+List
+====================================================
+*/
+
+.rules h2 {
+    padding-top: 20px;
+}
+
+.mainrule {
+    margin-left: 15px;
+    list-style: decimal;
+}
+
+.level1 {
+    list-style: none;
+    counter-reset: level1-decimal;
+    margin-left: 0px;
+}
+
+.level1 > li {
+    counter-increment: level1-decimal;
+    margin-left: 35px;
+    text-indent: -25px;
+
+}
+
+.level1 > li::before {
+    content: counter(level1-decimal) ".";
+    font-weight: 700;
+    font-family: "Open Sans Condensed", "Montserrat", sans-serif;
+    margin-right: 10px
+}
+
+.level1 .subrule1 > li {
+    margin-left: -15px;
+    text-indent: 0px;
+}
+
+.subrule1 {
+    margin-left: 35px;
+    list-style: lower-alpha;
+}
+
+
+.boldintext {
+    font-weight: 700;
+}
+
+
+.subrule2 {
+    margin-left: 20px;
+    list-style: square;
+}
+
+.subrule3 {
+    margin-left: 20px;
+    list-style: circle;
+}
+
+.subrulenest {
+    padding-bottom: 0px;
+}
+
+
+.linkintext {
+    text-decoration: none;
+    color: rgba(76 221 36);
+}
+
+.linkintext:hover {
+    text-decoration: underline;
+    font-weight: 700;
+    color: rgba(76 221 36);
+}
+
+li > ol li:first-child,
+li > ul li:first-child {
+    padding-top: 20px;
+}
+
+
+
+
+/*
+  ========================================
+Header-registration
+  ========================================
+*/
+
+.logo {
+    width: 150px;
+    margin-top: 40px;
+    margin-left: 40px;
+}
+
+.head-registration {
+    display: flex;
+    align-items: center;
+
+}
+
+.head-registration .logo {
+    width: 150px;
+    height: 150px;
+    margin: 40px 10px 40px 10px;
+
+}
+
+.head-registration h1 {
+    width: 20%;
+    font-size: 45px;
+    line-height: 40px;
+    color: white;
+    margin: 0px 10px;
+}
+
+
+/*
+  ========================================
+  Navigation
+  ========================================
+*/
+
+.navigation {
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+    align-self: flex-end;
+    margin-bottom: 20px;
+}
+
+
+.navigation ul {
+    font-family: "Open Sans Condensed", sans-serif;
+    padding: 0;
+    text-transform: uppercase;
+}
+
+.navigation li {
+    margin-left: 5px;
+    font-size: 12.5px;
+    font-weight: 700;
+    display: inline-block;
+}
+
+.navigation a {
+    background: #395870;
+    background: linear-gradient(#49708f, #293f50);
+    color: gainsboro;
+    padding: 5px 8px;
+    text-decoration: none;
+    border-radius: 4px;
+}
+
+.navigation a:hover {
+    color: white;
+    background: #314b60;
+    box-shadow: inset 0 0 10px 1px rgba(0, 0, 0, .3);
+}
+
+
+/*
+  ========================================
+footer
+  ========================================
+*/
+
+footer ul {
+    font-family: "Open Sans Condensed", sans-serif;
+    text-transform: uppercase;
+}
+
+footer li {
+    font-size: 12.5px;
+    font-weight: 700;
+    display: inline-block;
+}
+
+footer a {
+    color: #fff;
+    text-decoration: none;
+}
+
+footer a:hover {
+    color: black;
+    background-color: white;
+    padding: 1px 0px;
+    border-radius: 2px;
+}
+
+footer small {
+    color: white;
+    font-weight: 700;
+    margin: 10px 0px 40px 10px;
+}
+
+.navigation-footer {
+    margin: 10px 10px 40px 10px;
+}
+
+.navigation-footer li {
+    line-height: 0px;
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+/*
+  ========================================
+About NYSL Icon
+  ========================================
+*/
+
+.icon {
+    font-size: 60px;
+    color: #395870;
+    width: 130px;
+    height: 130px;
+    border: 7px solid #395870;
+    border-radius: 65px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+}
+
+.about-NYSL {
+    display: flex;
+    justify-content: space-between;
+}
+
+.mvg {
+    width: 85%;
+}
+
+
+/*
+  ========================================
+Table
+  ========================================
+*/
+
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+    color: black;
+    font-size: 22px;
+    margin: auto;
+    margin-bottom: 20px;
+}
+
+thead {
+    font-weight: 700;
+    line-height: 40px;
+    background-color: lightgray;
+    text-align: left;
+}
+
+th {
+    padding-left: 10px;
+}
+
+
+.schedule tr:nth-child(even),
+.location tr:nth-child(even),
+#submission-table tr:nth-child(even) {
+    background: #f0f0f2;
+}
+
+.schedule td,
+.location td {
+    padding-left: 10px
+}
+
+.schedule tbody td:first-child,
+.location tbody td:first-child {
+    padding-top: 15px;
+}
+
+.schedule tbody td:last-child,
+.location tbody td:last-child {
+    padding-bottom: 15px;
+}
+
+.trbelow {
+    border-bottom: solid lightgray;
+
+}
+
+.flex-location {
+    display: flex;
+    justify-content: space-between;
+}
+
+.location {
+    width: 60%;
+    margin-left: 0px;
+}
+
+/*
+  ========================================
+Registration Button on Contact
+  ========================================
+*/
+
+#registrate-now {
+    text-decoration: none;
+    color: white;
+    font-weight: 700;
+    font-size: 30px;
+    background: linear-gradient(#49708f, #293f50);
+    border-radius: 5px;
+    padding: 15px 20px;
+    width: 50%
+}
+
+#text-for-register {
+    color: #293f50;
+    font-size: 35px;
+    font-weight: 700;
+    margin: 0;
+}
+
+.register {
+    display: flex;
+    width: 50%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+/*
+  ========================================
+Registration Form
+  ========================================
+*/
+
+
+form {
+    border: 1.5px solid #c6c7cc;
+    border-radius: 5px;
+    font: 20px/1.5 "Open Sans Condensed", "Montserrat", sans-serif;
+    width: 95%;
+    margin: 2.5%;
+
+}
+
+.player-info {
+    padding: 20px;
+}
+
+.player-info thead {
+    color: darkslategray;
+    font-weight: 400;
+    line-height: 40px;
+    padding: 0px;
+    background-color: white;
+}
+
+.player-info th {
+    padding: 6px;
+}
+
+.player-info label {
+    color: darkslategray;
+    font-weight: 700;
+}
+
+.tableform {
+    border: 0;
+    margin-bottom: 20px;
+    padding: 0;
+    table-layout: fixed;
+}
+
+
+.tableform td {
+    padding: 5px;
+}
+
+input {
+    border-radius: 5px;
+    font: 20px/1.5 "Open Sans Condensed", "Montserrat", sans-serif;
+    margin: 5px;
+    background: #fff;
+    border: 1px solid #c6c7cc;
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, .1);
+    color: #636466;
+    padding: 6px;
+    margin: 6px 0px;
+}
+
+.player-info input {
+    background: #fff;
+    border: 1px solid #c6c7cc;
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, .1);
+    color: #636466;
+    width: 100%;
+}
+
+input[type="radio"] {
+    width: 15px;
+    height: 15px;
+    margin: 15px 0px
+}
+
+input[type="checkbox"] {
+    width: 15px;
+    height: 15px;
+    margin: 0px 0px;
+}
+
+.option {
+    color: darkslategray;
+    font-weight: 400;
+    margin: 0px 12px
+}
+
+.non-fat-title {
+    font-weight: 400;
+}
+
+.flex-date {
+    display: flex;
+    justify-content: space-between
+}
+
+select {
+    width: 100%;
+    font: 20px/1.5 "Open Sans Condensed", "Montserrat", sans-serif;
+    border-radius: 5px;
+    background: #fff;
+    border: 1px solid #c6c7cc;
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, .1);
+    color: #636466;
+    padding: 6px 6px;
+    margin: 6px 0px
+}
+
+.registration-action {
+    background: #f0f0f2;
+    border-top: 1px solid #c6c7cc;
+    padding: 20px;
+    color: darkslategray
+}
+
+.permission-title {
+    font-size: 17px;
+    font-weight: 700;
+    text-decoration: underline;
+    padding-bottom: 0px;
+}
+
+.permission-paragraph {
+    font: 17px/1.4 "Open Sans Condensed", "Montserrat", sans-serif;
+}
+
+.signature {
+    display: flex;
+    justify-content: space-between
+}
+
+
+.permission-sign,
+.permission-date {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end
+}
+
+
+.permission-sign {
+    align-items: flex-start;
+}
+
+.permission-date {
+    align-items: flex-end;
+}
+
+
+
+#signing-date,
+#signature {
+    border: none;
+    border-bottom: 1px solid darkgray;
+    border-radius: 0px;
+    width: 80%;
+    margin: 6px 10px;
+}
+
+.registration-action .btn {
+    font-size: 20px;
+    background: linear-gradient(#49708f, #293f50);
+    border: 0;
+    color: #fff;
+    cursor: pointer;
+    font-weight: 700;
+    padding: 15px 30px;
+    margin: 6px 10px;
+}
+
+#last-check {
+    font-size: 17px;
+}
+
+/*
+  ========================================
+Submission Page
+  ========================================
+*/
+
+#text-after-submit {
+    width: auto;
+    font-size: 30px;
+    text-align: center;
+    line-height: 60px;
+    color: black;
+    padding-bottom: 0px;
+    margin: 0px 0px 20px 0px;
+
+}
+
+#submission-table {
+    width: 80%;
+}
+
+
+#submission-table th {
+    padding: 10px 0;
+    font-weight: 700;
+    background-color: lightgray;
+    border-bottom: 5px double lightgray;
+
+}
+
+#submission-table td {
+    padding: 10px 0;
+}
